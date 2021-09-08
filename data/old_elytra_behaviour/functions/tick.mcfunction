@@ -1,0 +1,2 @@
+execute as @a[gamemode=survival,nbt={FallFlying:1b,OnGround:0b,Inventory:[{Slot:102b,id:"minecraft:elytra"}]}] run function old_elytra_behaviour:modify_durability
+execute as @a[gamemode=survival,nbt={FallFlying:0b,Inventory:[{Slot:102b,id:"minecraft:elytra"}]}] run function old_elytra_behaviour:update_durability

@@ -1,0 +1,1 @@
+execute as @a store result score @s elytradurability run data get entity @s Inventory[{Slot:102b}].tag.Damage
